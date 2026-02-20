@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>مكتبة سلايدات التسويق والتسويق الرقمي</title>
+  <style>
+    :root{--bg:#0b1220;--card:#121a2b;--muted:#93a4c7;--text:#e9eefc;--accent:#7aa7ff;--line:#1f2a44;}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(180deg,#0b1220 0%, #070b14 100%);color:var(--text);}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1100px;margin:0 auto;padding:28px 18px 60px;}
+    header{display:flex;flex-direction:column;gap:10px;margin-bottom:18px;}
+    h1{font-size:28px;margin:0}
+    .sub{color:var(--muted);line-height:1.7}
+    .bar{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border:1px solid var(--line);background:rgba(255,255,255,0.03);border-radius:12px;color:var(--text)}
+    .btn:hover{background:rgba(255,255,255,0.06)}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;margin-top:16px}
+    .section{grid-column:1/-1;margin-top:18px}
+    .section h2{font-size:18px;margin:0 0 10px 0;color:#d7e3ff}
+    .cards{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}
+    .card{grid-column:span 12;background:rgba(255,255,255,0.03);border:1px solid var(--line);border-radius:16px;padding:14px 14px 12px}
+    @media(min-width:780px){ .card{grid-column:span 6} }
+    @media(min-width:1020px){ .card{grid-column:span 4} }
+    .card h3{margin:0 0 8px 0;font-size:16px}
+    .meta{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 0}
+    .tag{font-size:12px;color:var(--muted);border:1px solid var(--line);padding:4px 8px;border-radius:999px}
+    .desc{color:var(--muted);line-height:1.6;font-size:14px;margin:0 0 10px 0}
+    footer{margin-top:26px;color:var(--muted);font-size:13px;line-height:1.6;border-top:1px solid var(--line);padding-top:14px}
+    .small{font-size:12px}
+    .search{margin-top:10px}
+    input{width:100%;max-width:520px;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,0.03);color:var(--text);outline:none}
+    input::placeholder{color:#7f91b9}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>مكتبة سلايدات التسويق والتسويق الرقمي</h1>
+      <div class="sub">
+        صفحة تجمع كل السلايدات/الـPDF التي شاركتها سابقًا، مرتبة حسب المسار.  
+        <span class="small">نصيحة: استخدم مربع البحث لتجد أي ملف بسرعة.</span>
+      </div>
+      <div class="bar">
+        <a class="btn" href="#marketing">أساسيات التسويق</a>
+        <a class="btn" href="#digital">التسويق الرقمي</a>
+        <a class="btn" href="#channels">قنوات التسويق</a>
+        <a class="btn" href="#analytics">التحليلات (Analytics)</a>
+        <a class="btn" href="#funnel">المحتوى + Funnel</a>
+      </div>
+      <div class="search">
+        <input id="q" placeholder="ابحث داخل المكتبة… (مثال: SEO / GA4 / HubSpot)" />
+      </div>
+    </header>
+
+    <div class="grid" id="content">
+
+      <div class="section" id="marketing">
+        <h2>1) سلايدات أساسيات التسويق (Marketing Fundamentals)</h2>
+        <div class="cards">
+          <div class="card" data-text="lumen principles of marketing powerpoints أساسيات التسويق slides">
+            <h3>Principles of Marketing – PowerPoints (Lumen Learning)</h3>
+            <p class="desc">سلايدات جاهزة لكل الموديلات (PowerPoint decks) ضمن مادة مبادئ التسويق.</p>
+            <div class="meta">
+              <span class="tag">English</span><span class="tag">PowerPoints</span><span class="tag">Open License</span>
+              <a class="tag" href="https://courses.lumenlearning.com/waymakerintromarketingxmasterfall2016/chapter/powerpoints/" target="_blank" rel="noopener">فتح المصدر</a>
+            </div>
+          </div>
+
+          <div class="card" data-text="mit ocw marketing management lecture notes pdf سلايدات">
+            <h3>Marketing Management – Lecture Notes (MIT OCW)</h3>
+            <p class="desc">محاضرات بصيغة PDF (Lecture Notes) ممتازة كمنهج أكاديمي مرتب.</p>
+            <div class="meta">
+              <span class="tag">English</span><span class="tag">PDF</span><span class="tag">University</span>
+              <a class="tag" href="https://ocw.mit.edu/courses/15-810-marketing-management-fall-2010/pages/lecture-notes/" target="_blank" rel="noopener">فتح المصدر</a>
+            </div>
+          </div>
+
+          <div class="card" data-text="spu introduction to modern marketing التسويق المعاصر جامعة خاصة سورية">
+            <h3>Introduction to Modern Marketing (SPU) – PDF</h3>
+            <p class="desc">محاضرة عربية (PDF) عن مدخل إدارة/التسويق المعاصر.</p>
+            <div class="meta">
+              <span class="tag">عربي</span><span class="tag">PDF</span><span class="tag">جامعة</span>
+              <a class="tag" href="https://spu.edu.sy/downloads/files/1537018764_1%20Introduction%20to%20Modern%20Marketing%20SPU.pdf" target="_blank" rel="noopener">فتح المصدر</a>
+            </div>
+          </div>
+
+          <div class="card" data-text="جامعة بغداد محاضرات ادارة التسويق pdf">
+            <h3>محاضرات مادة إدارة التسويق (جامعة بغداد) – PDF</h3>
+            <p class="desc">ملف عربي شامل بمحاضرات إدارة التسويق (المرحلة الثانية).</p>
+            <div class="meta">
+              <span class="tag">عربي</span><span class="tag">PDF</span><span class="tag">جامعة</span>
+              <a class="tag" href="https://coadec.uobaghdad.edu.iq/wp-content/uploads/sites/9/2019/01/%D9%85%D8%AD%D8%A7%D8%B6%D8%B1%D8%A7%D8%AA-%D9%85%D8%A7%D8%AF%D8%A9-%D8%A5%D8%AF%D8%A7%D8%B1%D88%D8%A9-%D8%A7%D9%84%D8%AA%D8%B3%D9%88%D9%8A%D9%82-%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9-.pdf" target="_blank" rel="noopener">فتح المصدر</a>
+            </div>
+          </div>
+
+          <div class="card" data-text="usc stp segmentation targeting positioning chapter 9 buad 307">
+            <h3>STP: Segmentation, Targeting, Positioning (USC) – PDF</h3>
+            <p class="desc">سلايدات واضحة جدًا لشرح STP مع أمثلة وتطبيقات.</p>
+            <div class="meta">
+              <span class="tag">English</span><span class="tag">PDF</span><span class="tag">University</span>
+              <a class="tag" href="https://faculty.marshall.usc.edu/Davide-Proserpio/BUAD307-fall19/lectures/BUAD-307-Chap09.pdf" target="_blank" rel="noopener">فتح المصدر</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="digital">
+        <h2>2) سلايدات التسويق الرقمي من الصفر (Digital Marketing)</h2>
+        <div class="cards">
+          <div class="card" data-text="hubspot digital marketing fundamentals deck pdf">
+            <h3>Digital Marketing Fundamentals (HubSpot) – Deck PDF</h3>
+            <p class="desc">Deck رسمي يشرح الأساسيات: القنوات، الاستراتيجية، والمحتوى.</p>
+            <div class="meta">
+              <span class="tag">English</span><span class="tag">PDF</span><span class="tag">HubSpot</span>
+              <a class="tag" href="https://f.hubspotusercontent20.net/hubfs/137828/_Academy%20Education%20-%20Learning%20Center%20Resources/Academy_Standalone%20Lessons/Academy%20Lesson_Digital%20Marketing%20Fundamentals/Deck/DECK_Digital%20Marketing%20Fundamentals%20v2.pdf" target="_blank" rel="noopener">فتح المصدر</a>
+            </div>
+          </div>
+
+          <div class="card" data-text="digital marketing for beginners hubspot presentation pdf">
+            <h3>Digital Marketing for Beginners (HubSpot) – PDF</h3>
+            <p class="desc">عرض مبسّط للمبتدئين: من SEO إلى الإعلانات الأولى.</p>
+            <div class="meta">
+              <span class="tag">English</span><span class="tag">PDF</span><span class="tag">HubSpot</span>
+              <a class="tag" href="https://cdn2.hubspot.net/hubfs/3370608/HubSpot-Projects-Attachments/e-Book%20-%20digital%20marketing%20/Maplesage%20-%20DIGITAL%20MARKETING%20FOR%20BEGINNERS%20-Presentation.pdf" target="_blank" rel="noopener">فتح المصدر</a>
+            </div>
+          </div>
+
+          <div class="card" data-text="glen eira defining digital marketing goals seminar 2 pdf">
+            <h3>Defining Your Digital Marketing Goals (Glen Eira) – PDF</h3>
+            <p class="desc">سلايدات عملية لتحديد الأهداف (SMART) وتخطيط التنفيذ.</p>
+            <div class="meta">
+              <span class="tag">English</span><span class="tag">PDF</span><span class="tag">Government</span>
+              <a class="tag" href="https://www.gleneira.vic.gov.au/media/9552/digital-pathways-seminar-2.pdf" target="_blank" rel="noopener">فتح المصدر</a>
+            </div>
+          </div>
+
+          <div class="card" data-text="glen eira choosing right social media platform pdf">
+            <h3>Choosing the Right Social Media Platform (Glen Eira) – PDF</h3>
+            <p class="desc">كيف تختار منصة السوشال المناسبة بحسب الجمهور والهدف.</p>
+            <div class="meta">
+              <span class="tag">English</span><span class="tag">PDF</span><span class="tag">Government</span>
+              <a class="tag" href="https://www.gleneira.vic.gov.au/media/8662/choosing-the-right-social-media-platform-for-your-business-slides.pdf" target="_blank" rel="noopener">فتح المصدر</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="channels">
+        <h2>3) قنوات التسويق الرقمي (SEO / Email / Paid Social / Social Commerce)</h2>
+        <div class="cards">
+          <div class="card" data-text="seo glen eira basics of seo slides pdf">
+            <h3>The Basics of SEO (Glen Eira) – PDF</h3>
+            <p class="desc">شرح مبسط لكيف تعمل نتائج البحث وكيف تبدأ SEO عمليًا.</p>
+            <div class="meta">
+              <span class="tag">English</span><span class="tag">PDF</span><span class="tag">SEO</span>
+              <a class="tag" href="https://www.gleneira.vic.gov.au/media/8655/the-basics-of-seo-slides.pdf" target="_blank" rel="noopener">فتح المصدر</a>
+            </div>
+          </div>
+
+          <div class="card" data-text="email marketing basics glen eira slides pdf">
+            <h3>Email Marketing Basics (Glen Eira) – PDF</h3>
+            <p class="desc">أنواع حملات الإيميل + أفضل ممارسات وتجنب الـ Spam.</p>
+            <div class="meta">
+              <span class="tag">English</span><span class="tag">PDF</span><span class="tag">Email</span>
+              <a class="tag" href="https://www.gleneira.vic.gov.au/media/8665/email-marketing-basics-slides.pdf" target="_blank" rel="noopener">فتح المصدر</a>
+            </div>
+          </div>
+
+          <div class="card" data-text="paid social media marketing glen eira slides pdf">
+            <h3>Paid Social Media Marketing (Glen Eira) – PDF</h3>
+            <p class="desc">مدخل للإعلانات المدفوعة على السوشال: الاستهداف، الأهداف، والميزانية.</p>
+            <div class="meta">
+              <span class="tag">English</span><span class="tag">PDF</span><span class="tag">Paid Ads</span>
+              <a class="tag" href="https://www.gleneira.vic.gov.au/media/8654/paid-social-media-marketing-slides.pdf" target="_blank" rel="noopener">فتح المصدر</a>
+            </div>
+          </div>
+
+          <div class="card" data-text="social media ecommerce platform glen eira slides pdf social commerce">
+            <h3>Social Media & eCommerce Platforms (Glen Eira) – PDF</h3>
+            <p class="desc">Social commerce: كيف تبيع عبر المنصات وكيف تسوّق المنتج أونلاين.</p>
+            <div class="meta">
+              <span class="tag">English</span><span class="tag">PDF</span><span class="tag">Social Commerce</span>
+              <a class="tag" href="https://www.gleneira.vic.gov.au/media/8657/using-social-media-as-an-ecommerce-platform-slides.pdf" target="_blank" rel="noopener">فتح المصدر</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="analytics">
+        <h2>4) التحليلات وقياس الأداء (Analytics + GA4)</h2>
+        <div class="cards">
+          <div class="card" data-text="yorku ga4 fundamentals pdf analytics">
+            <h3>GA4 Fundamentals (York University) – PDF</h3>
+            <p class="desc">نظرة شاملة على Google Analytics 4 + مفاهيم وتقارير شائعة.</p>
+            <div class="meta">
+              <span class="tag">English</span><span class="tag">PDF</span><span class="tag">GA4</span>
+              <a class="tag" href="https://www.yorku.ca/digitalexperiencehub/wp-content/uploads/sites/17/2022/06/GA4-Fundamentals.pdf" target="_blank" rel="noopener">فتح المصدر</a>
+            </div>
+          </div>
+
+          <div class="card" data-text="making the most of data analytics glen eira slides pdf">
+            <h3>Making the Most of Data Analytics (Glen Eira) – PDF</h3>
+            <p class="desc">كيف تستخدم التحليلات لاتخاذ قرارات أفضل + لوحات Dashboard.</p>
+            <div class="meta">
+              <span class="tag">English</span><span class="tag">PDF</span><span class="tag">Analytics</span>
+              <a class="tag" href="https://www.gleneira.vic.gov.au/media/8652/making-the-most-of-data-analytics-slides.pdf" target="_blank" rel="noopener">فتح المصدر</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="funnel">
+        <h2>5) محتوى + Funnel / Demand Generation</h2>
+        <div class="cards">
+          <div class="card" data-text="cxl demand gen class 4 slides pdf content">
+            <h3>Demand Gen – Class 4 Slides (CXL) – PDF</h3>
+            <p class="desc">سلايدات عملية عن أفكار المحتوى وربطها بمراحل الـ Funnel.</p>
+            <div class="meta">
+              <span class="tag">English</span><span class="tag">PDF</span><span class="tag">Funnel</span>
+              <a class="tag" href="https://cxl.com/institute/wp-content/uploads/2018/08/Demand-Gen-Class04-Slides.pdf" target="_blank" rel="noopener">فتح المصدر</a>
+            </div>
+          </div>
+
+          <div class="card" data-text="hubspot in-depth guide inbound marketing campaigns pdf">
+            <h3>Inbound Marketing Campaigns – In‑Depth Guide (HubSpot) – PDF</h3>
+            <p class="desc">دليل قوي لبناء حملات Inbound: الفكرة، الأهداف، الإدارة، وصناعة المحتوى.</p>
+            <div class="meta">
+              <span class="tag">English</span><span class="tag">PDF</span><span class="tag">Campaigns</span>
+              <a class="tag" href="https://www.hubspot.com/hubfs/HSCM%20Hopin/The_In-Depth_Guide.pdf" target="_blank" rel="noopener">فتح المصدر</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <div>آخر تحديث للصفحة: <span id="dt"></span></div>
+      <div class="small">ملاحظة: الروابط خارجية (PDF/Pages). إذا تغيّر رابط مستقبلاً أخبرني وأحدث لك الصفحة.</div>
+    </footer>
+  </div>
+
+  <script>
+    const q = document.getElementById('q');
+    const cards = [...document.querySelectorAll('.card')];
+    const dt = document.getElementById('dt');
+    dt.textContent = new Date().toLocaleDateString('ar-EG', {year:'numeric', month:'long', day:'numeric'});
+    q.addEventListener('input', () => {
+      const term = (q.value || '').trim().toLowerCase();
+      cards.forEach(c => {
+        const hay = (c.getAttribute('data-text') || '').toLowerCase();
+        c.style.display = (!term || hay.includes(term)) ? '' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>
